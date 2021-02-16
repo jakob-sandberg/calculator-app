@@ -11,6 +11,7 @@ function DataProvider (props) {
   const values = {
     handleClick,
   }
+  
     return(
     <DataContext.Provider value={values}>
       {props.children}
