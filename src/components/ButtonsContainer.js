@@ -1,3 +1,5 @@
+import { buttons } from "../css/ButtonsContainer.module.css"
+
 function ButtonsContainer ()  {
   return ( 
     <div className={buttons}>
