@@ -1,9 +1,9 @@
 import { button } from "../css/Button.module.css"
 
-function Button () {
+function Button (props) {
   return ( 
     <div className={button}>
-      <span>Värde</span>
+      <span>{ props.data }</span>
     </div>
    );
 }
