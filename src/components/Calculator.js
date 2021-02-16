@@ -1,11 +1,12 @@
 import { calculator } from "../css/Calculator.module.css"
+import ButtonsContainer from "./ButtonsContainer";
 import Display from "./Display";
 
 function Calculator () {
   return ( 
     <div className={calculator}>
       <Display />
-      <h2>This is Button comp</h2>
+      <ButtonsContainer />
     </div>
    );
 }
