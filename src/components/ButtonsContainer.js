@@ -10,7 +10,7 @@ function ButtonsContainer ()  {
   return ( 
     <div className={buttons}>
       {buttonsValues.map((value) => (
-        <Button />
+        <Button key={value} data={value} />
       ))}
       
     </div>
