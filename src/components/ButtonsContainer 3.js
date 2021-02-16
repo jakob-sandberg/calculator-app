@@ -1,4 +1,3 @@
-import Button from "../components/Button"
 import { useState } from "react"
 import { buttons } from "../css/ButtonsContainer.module.css"
 
@@ -10,7 +9,7 @@ function ButtonsContainer ()  {
   return ( 
     <div className={buttons}>
       {buttonsValues.map((value) => (
-        <Button />
+        <p key={value}>{value}</p>
       ))}
       
     </div>
